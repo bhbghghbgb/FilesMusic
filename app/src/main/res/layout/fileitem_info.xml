@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="20dp">
+
+    <TextView
+        android:id="@+id/textViewPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fileitem_info_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:background="#2C4C4D50"
+        android:fontFamily="@font/noto_sans"
+        android:padding="2dp"
+        android:text="[Path]"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fileitem_info_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:background="#2C4C4D50"
+        android:fontFamily="@font/noto_sans"
+        android:padding="2dp"
+        android:text="[Info]"
+        android:typeface="monospace" />
+</LinearLayout>

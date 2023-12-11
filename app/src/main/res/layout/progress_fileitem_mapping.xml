@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progress_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/fileitem_mapping_progress_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        app:indicatorSize="256dp"
+        app:trackThickness="12dp"
+        tools:indeterminate="false"
+        tools:progress="95" />
+
+    <TextView
+        android:id="@+id/fileitem_mapping_progress_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        tools:text="Mapping files\n1 of 32\n50.00%" />
+</FrameLayout>
