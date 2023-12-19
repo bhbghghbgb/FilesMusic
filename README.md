@@ -51,8 +51,11 @@ It runs on my machine
 
 ## License
 
-- My code: No license, most codebase is not **mine** anyway
-- Not my code: idk, their licenses then
+- My code: ~~No license~~, most codebase is not **mine** anyway
+    - `MIT may protect you from being sued if bug in your code is the cause of their rocket explosion on launch.`
+        - https://www.reddit.com/r/github/comments/hvp4k6/comment/fyuxhis/
+    - Thus, MIT
+- Not my code: Their licenses then
 
 ## Unrelated
 
